@@ -1,0 +1,48 @@
+body{
+    margin: 10;
+    font-family: sans-serif;
+    background: #ffffff;
+}
+
+.bold{
+    color: orange;
+}
+
+.navbar{
+    display: flex;
+    background-color:yellow;
+    justify-content:baseline;
+    padding: 1cm,2cm;
+    box-shadow: grey;
+}
+
+
+.navbar a{
+    font-weight: bolder;
+    margin-left: 0.5cm;
+    font-family: serif;
+}
+
+.hero{
+  display:ruby-text;
+  justify-content:space-around;
+  align-items:center;
+  padding: 1cm,1.5cm;
+}
+
+button {
+  background: yellow;
+  color: black;
+  border-radius: 6px;;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #dae546;
+}
+
+.hero .b{
+    position: absolute;
+    top: 36%;
+    left: 8%;
+}
